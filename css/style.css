@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #444;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 100vh;
+}
+
+.todos {
+  justify-self: center;
+  margin-top: 10px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
